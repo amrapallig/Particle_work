@@ -1,1 +1,9 @@
 git clone git@github.com:amrapallig/Particle_work.git branch1
+cd branch1
+git fetch origin
+git checkout -b branch1
+git submodule update --init
+git add test
+git commit -m "<add a commit message here>"
+git push
+
